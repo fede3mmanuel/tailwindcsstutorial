@@ -513,6 +513,15 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-slate-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -524,4 +533,16 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  }
+
+  .dark\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
 }
