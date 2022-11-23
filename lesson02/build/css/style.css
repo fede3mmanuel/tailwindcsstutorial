@@ -810,6 +810,10 @@ video {
     flex-direction: row;
   }
 
+  .sm\:scroll-smooth {
+    scroll-behavior: smooth;
+  }
+
   .sm\:text-left {
     text-align: left;
   }
