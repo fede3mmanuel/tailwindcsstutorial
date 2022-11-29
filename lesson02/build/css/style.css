@@ -547,10 +547,6 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -583,12 +579,12 @@ video {
   max-width: 28rem;
 }
 
-.scroll-mt-20 {
-  scroll-margin-top: 5rem;
-}
-
 .scroll-mt-40 {
   scroll-margin-top: 10rem;
+}
+
+.scroll-mt-20 {
+  scroll-margin-top: 5rem;
 }
 
 .list-none {
