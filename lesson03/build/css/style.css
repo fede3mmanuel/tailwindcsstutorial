@@ -842,16 +842,6 @@ video {
   position: absolute;
 }
 
-.after\:top-0::after {
-  content: var(--tw-content);
-  top: 0px;
-}
-
-.after\:left-0::after {
-  content: var(--tw-content);
-  left: 0px;
-}
-
 .after\:-bottom-20::after {
   content: var(--tw-content);
   bottom: -5rem;
